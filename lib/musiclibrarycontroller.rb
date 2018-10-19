@@ -118,4 +118,6 @@ end
 
 @userinput2 = gets.chomp
 if @userinput2 == "list songs"
+  list_songs
+end
 
