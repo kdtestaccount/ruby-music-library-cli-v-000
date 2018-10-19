@@ -117,4 +117,5 @@ end
 end
 
 @userinput2 = gets.chomp
+if @userinput2 == "list songs"
 
