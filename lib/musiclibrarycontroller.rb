@@ -22,23 +22,21 @@ def call
   end
   
 get userinput3
-  if @userinput == "list songs"
+  if userinput3 == "list songs"
     list_songs
-  elsif @userinput == "list artists"
+  elsif userinput3 == "list artists"
     list_artists
-  elsif @userinput == "list genres"
+  elsif userinput3 == "list genres"
     list_genres
-  elsif @userinput == "list artist"
+  elsif userinput3 == "list artist"
     list_songs_by_artist
-  elsif @userinput == "list genre"
+  elsif userinput3 == "list genre"
     list_songs_by_genre
-  elsif @userinput == "play song"
+  elsif userinput3 == "play song"
     play_song
   else 
     nil
   end
-  
-  
 end
   
 
