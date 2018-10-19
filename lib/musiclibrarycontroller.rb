@@ -108,7 +108,7 @@ def play_song
   end
   # songlocationinarray = songpicked - 1
   # songtheychose = newarray2[songlocationinarray]
-  # puts "Playing #{songtheychose.name} by #{songtheychose.artist.name}"
+  puts "Playing #{songtheychose.name} by #{songtheychose.artist.name}"
 end
 
 
