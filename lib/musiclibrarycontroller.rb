@@ -9,9 +9,10 @@ def initialize(path='./db/mp3s')
   @userinput2 = gets.chomp
   if @userinput2 == "list songs"
    list_songs
-  elsif 
+  elsif @userinput2 == "list songs"
+ 
   
-end
+  end
 end
   
 def call 
