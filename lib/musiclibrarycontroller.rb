@@ -21,6 +21,7 @@ def call
     @userinput = gets.chomp
   end
   
+get userinput 
   if @userinput == "list songs"
     list_songs
   elsif @userinput == "list artists"
