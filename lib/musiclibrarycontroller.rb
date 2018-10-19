@@ -116,4 +116,5 @@ end
 
 end
 
+@userinput2 = gets.chomp
 
