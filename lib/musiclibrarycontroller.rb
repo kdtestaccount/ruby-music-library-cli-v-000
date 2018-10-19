@@ -5,25 +5,6 @@ attr_accessor :userinput, :newimporter
 def initialize(path='./db/mp3s')
   @newimporter = MusicImporter.new(path)
   @newimporter.import
-  @userinput = gets.chomp
-  
-  # if @userinput == "list songs"
-  # list_songs
-  # elsif @userinput == "list artists"
-  #   list_artists
-  # elsif @userinput == "list genres"
-  #   list_genres
-  # elsif @userinput == "list artist"
-  #   list_songs_by_artist
-  # elsif @userinput == "list genre"
-  #   list_songs_by_genre
-  # elsif @userinput == "play song"
-  #   play_song
-  # else 
-  #   nil
-  # end
-  
-  
 end
   
 def call 
@@ -135,5 +116,8 @@ end
 
 end
 
-
+@userinput2 = gets.chomp
+if @userinput2 == "list songs"
+  list_songs
+end
 
