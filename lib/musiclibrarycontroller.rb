@@ -98,10 +98,8 @@ end
 def play_song
   puts "Which song number would you like to play?"
   songpicked = gets.chomp
-  
   newarray2 = []
   number = 0
-
   Song.all.sort_by!{ |m| m.name }
   Song.all.each do |item|
       newarray2 << item
