@@ -106,11 +106,12 @@ def play_song
   Song.all.each do |item|
       newarray2 << item
   end
-  songlocationinarray = songpicked.to_i - 1
-  songtheychose = newarray2[songlocationinarray]
-  puts "Playing #{songtheychose.name} by #{songtheychose.artist.name}"
+  if songpicked 
+    songlocationinarray = songpicked.to_i - 1
+    songtheychose = newarray2[songlocationinarray]
+    puts "Playing #{songtheychose.name} by #{songtheychose.artist.name}"
 end
-
+end
 
 
 
