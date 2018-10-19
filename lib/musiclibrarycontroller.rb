@@ -8,6 +8,7 @@ def initialize(path='./db/mp3s')
 end
   
 def call 
+  
   until @userinput == "exit"
     puts "Welcome to your music library!" 
     puts "To list all of your songs, enter 'list songs'."
@@ -20,7 +21,8 @@ def call
     puts "What would you like to do?"
     @userinput = gets.chomp
   end
-  
+end 
+
 get userinput3
   if userinput3 == "list songs"
     list_songs
@@ -37,6 +39,7 @@ get userinput3
   else 
     nil
   end
+
 end
   
 
