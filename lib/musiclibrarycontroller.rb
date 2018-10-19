@@ -20,6 +20,24 @@ def call
     puts "What would you like to do?"
     @userinput = gets.chomp
   end
+  
+  if @userinput == "list songs"
+    list_songs
+  elsif @userinput == "list artists"
+    list_artists
+  elsif @userinput == "list genres"
+    list_genres
+  elsif @userinput == "list artist"
+    list_songs_by_artist
+  elsif @userinput == "list genre"
+    list_songs_by_genre
+  elsif @userinput == "play song"
+    play_song
+  else 
+    nil
+  end
+  
+  
 end
   
 
