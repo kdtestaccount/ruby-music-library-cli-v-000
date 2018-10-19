@@ -8,7 +8,6 @@ def initialize(path='./db/mp3s')
 end
   
 def call 
-  
   until @userinput == "exit"
     puts "Welcome to your music library!" 
     puts "To list all of your songs, enter 'list songs'."
