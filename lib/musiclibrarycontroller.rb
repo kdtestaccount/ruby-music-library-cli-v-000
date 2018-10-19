@@ -38,7 +38,6 @@ get userinput3
   else 
     nil
   end
-
 end
   
 
