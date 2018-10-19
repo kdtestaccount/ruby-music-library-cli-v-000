@@ -12,7 +12,7 @@ def initialize(path='./db/mp3s')
   elsif @userinput2 == "list artists"
     list_artists
   elsif @userinput2 == "list genres"
-
+    list_genres
   end
 end
   
