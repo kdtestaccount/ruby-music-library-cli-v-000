@@ -22,23 +22,23 @@ def call
   end
 end 
 
-get userinput3
-  if userinput3 == "list songs"
-    list_songs
-  elsif userinput3 == "list artists"
-    list_artists
-  elsif userinput3 == "list genres"
-    list_genres
-  elsif userinput3 == "list artist"
-    list_songs_by_artist
-  elsif userinput3 == "list genre"
-    list_songs_by_genre
-  elsif userinput3 == "play song"
-    play_song
-  else 
-    nil
-  end
-end
+# get userinput3
+#   if userinput3 == "list songs"
+#     list_songs
+#   elsif userinput3 == "list artists"
+#     list_artists
+#   elsif userinput3 == "list genres"
+#     list_genres
+#   elsif userinput3 == "list artist"
+#     list_songs_by_artist
+#   elsif userinput3 == "list genre"
+#     list_songs_by_genre
+#   elsif userinput3 == "play song"
+#     play_song
+#   else 
+#     nil
+#   end
+# end
   
 
 def list_songs
