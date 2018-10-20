@@ -19,7 +19,7 @@ def call
     puts "To quit, type 'exit'."
     puts "What would you like to do?"
     @userinput = gets.chomp
-  end
+  
   
   if @userinput == "list songs"
     list_songs
@@ -36,6 +36,7 @@ def call
   else 
     nil
   end
+end
 end 
 
 # get userinput3
