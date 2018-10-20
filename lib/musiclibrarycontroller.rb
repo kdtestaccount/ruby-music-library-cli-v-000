@@ -36,8 +36,6 @@ def call
   else 
     nil
   end
-end
-  
 end 
 
 # get userinput3
