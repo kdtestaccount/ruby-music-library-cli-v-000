@@ -21,17 +21,17 @@ def call
     @userinput = gets.chomp
   end
   
-    if userinput3 == "list songs"
+  if @userinput == "list songs"
     list_songs
-  elsif userinput3 == "list artists"
+  elsif @userinput == "list artists"
     list_artists
-  elsif userinput3 == "list genres"
+  elsif @userinput == "list genres"
     list_genres
-  elsif userinput3 == "list artist"
+  elsif @userinput == "list artist"
     list_songs_by_artist
-  elsif userinput3 == "list genre"
+  elsif @userinput == "list genre"
     list_songs_by_genre
-  elsif userinput3 == "play song"
+  elsif @userinput == "play song"
     play_song
   else 
     nil
